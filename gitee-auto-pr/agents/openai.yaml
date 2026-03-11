@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gitee Auto PR"
+  short_description: "Automate Gitee review-mode PR creation"
+  default_prompt: "Use $gitee-auto-pr to create or update a Gitee PR by pushing to a review-mode protected branch."
