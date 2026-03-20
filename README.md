@@ -12,6 +12,12 @@ Each skill lives in its own directory and includes a `SKILL.md` entrypoint plus 
   npx skills@latest add hex2dec/skills/gitee-auto-pr
   ```
 
+- **gitee-checkout-pr** — Fetch a Gitee pull request by number into a local branch and switch to it by auto-detecting the repository's Gitee remote instead of hardcoding the remote URL.
+
+  ```bash
+  npx skills@latest add hex2dec/skills/gitee-checkout-pr
+  ```
+
 ## License
 
 MIT. See [LICENSE](./LICENSE).
