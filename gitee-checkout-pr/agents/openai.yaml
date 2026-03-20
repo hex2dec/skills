@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gitee Checkout PR"
+  short_description: "Fetch and switch to a Gitee PR by number"
+  default_prompt: "Use $gitee-checkout-pr to fetch a Gitee pull request into a local branch and switch to it."
