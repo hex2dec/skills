@@ -1,0 +1,4 @@
+interface:
+  display_name: "Gitee Auto PR (Deprecated)"
+  short_description: "Deprecated legacy Gitee review-mode auto PR workflow"
+  default_prompt: "Use $gitee-auto-pr only for legacy Gitee review-mode auto PR flows; prefer using-gitee-cli with gitee-cli for normal Gitee repository and PR work."

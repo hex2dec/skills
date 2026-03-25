@@ -1,9 +1,13 @@
 ---
 name: gitee-auto-pr
-description: Create or update Gitee pull requests by pushing to protected branches in review mode (评审模式). Use when Codex is asked to push a branch so Gitee auto-creates or auto-updates a PR, to decide whether a push after `commit --amend`, `rebase`, `revert`, or other history rewriting will update the current auto PR or create a new one, or to keep the same PR by working on the generated `auto-*` source branch.
+description: Deprecated. Create or update Gitee pull requests by pushing to protected branches in review mode (评审模式). Keep this only for legacy repositories that still depend on review-mode auto PR behavior, and prefer gitee-cli plus the using-gitee-cli skill for new work.
 ---
 
 # Gitee Auto PR
+
+Deprecated: prefer [`gitee-cli`](https://github.com/hex2dec/gitee-cli) and the matching [`using-gitee-cli`](https://github.com/hex2dec/gitee-cli/tree/main/skills/using-gitee-cli) skill for new Gitee repository, issue, and pull request workflows.
+
+Keep this skill only for repositories that still rely on Gitee protected branches in review mode to auto-create or auto-update pull requests from `git push`.
 
 ## Overview
 
