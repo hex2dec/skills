@@ -1,0 +1,4 @@
+interface:
+  display_name: "Using Codex CLI"
+  short_description: "Teach terminal Codex CLI usage and workflows"
+  default_prompt: "Use $using-codex-cli to explain or operate Codex from the terminal safely."

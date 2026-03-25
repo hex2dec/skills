@@ -8,6 +8,12 @@ For new Gitee terminal workflows, prefer [`gitee-cli`](https://github.com/hex2de
 
 ## Available Skills
 
+- **using-codex-cli** — Teach another agent or user how to use the Codex CLI from a terminal, including interactive sessions, `codex exec`, `codex review`, session management, and safe execution defaults.
+
+  ```bash
+  npx skills@latest add hex2dec/skills/using-codex-cli
+  ```
+
 - **gitee-checkout-pr** — Fetch a Gitee pull request by number into a local branch and switch to it by auto-detecting the repository's Gitee remote instead of hardcoding the remote URL.
 
   ```bash
